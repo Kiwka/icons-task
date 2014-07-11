@@ -25,7 +25,7 @@
 }
 
 /* Separate properties for every icon*/
-.icon_home {
+.icon_purple {
 	background-color: #00d21e;
 }
 
@@ -33,7 +33,7 @@
 	background-image: url("../image/symbol_home.png");
 }
 
-.icon_trash {
+.icon_red {
 	background-color: #b50000;
 }
 
@@ -41,7 +41,7 @@
 	background-image: url("../image/symbol_trash.png");
 }
 
-.icon_backspace {
+.icon_yellow {
 	background-color: #ffc600;
 }
 
@@ -49,7 +49,7 @@
 	background-image: url("../image/symbol_backspace.png");
 }
 
-.icon_wait {
+.icon_grey {
 	background-color: #9e9e9e;
 }
 
@@ -57,7 +57,7 @@
 	background-image: url("../image/symbol_wait.png");
 }
 
-.icon_cloud {
+.icon_blue {
 	background-color: #007ac8;
 }
 
@@ -65,7 +65,7 @@
 	background-image: url("../image/symbol_cloud.png");
 }
 
-.icon_music {
+.icon_violet {
 	background-color: #ff00ea;
 }
 
@@ -73,7 +73,7 @@
 	background-image: url("../image/symbol_music.png");
 }
 
-.icon_create {
+.icon_green {
 	background-color: #00dc29;
 }
 
@@ -81,7 +81,7 @@
 	background-image: url("../image/symbol_create.png");
 }
 
-.icon_info {
+.icon_bright-blue {
 	background-color: #00f6ff;
 }
 
@@ -89,7 +89,7 @@
 	background-image: url("../image/symbol_info.png");
 }
 
-.icon_edit {
+.icon_dark-purple {
 	background-color: #b500a6;
 }
 
