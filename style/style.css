@@ -25,76 +25,125 @@
 	border-radius: 50%;
 }
 
+.icons__item:hover {
+	transition: all 0.4s ease-in 0.1s;
+	background: black;
+	/* transform: scale(2,2);*/
+	/* transition: ;*/
+}
+
 /* Separate properties for every icon*/
 .icon_purple {
 	background-color: #00d21e;
 }
-
-.symbol_home {
-	display: block;
-	background-image: url("../image/symbol_home.png");
-}
-
 .icon_red {
 	background-color: #b50000;
 }
-
-.symbol_trash{
-	background-image: url("../image/symbol_trash.png");
-}
-
 .icon_yellow {
 	background-color: #ffc600;
 }
-
-.symbol_backspace {
-	background-image: url("../image/symbol_backspace.png");
-}
-
 .icon_grey {
 	background-color: #9e9e9e;
 }
-
-.symbol_wait {
-	background-image: url("../image/symbol_wait.png");
-}
-
 .icon_blue {
 	background-color: #007ac8;
 }
-
-.symbol_cloud {
-	background-image: url("../image/symbol_cloud.png");
-}
-
 .icon_violet {
 	background-color: #ff00ea;
 }
-
-.symbol_music {
-	background-image: url("../image/symbol_music.png");
-}
-
 .icon_green {
 	background-color: #00dc29;
 }
-
-.symbol_create {
-	background-image: url("../image/symbol_create.png");
-}
-
 .icon_bright-blue {
 	background-color: #00f6ff;
 }
-
-.symbol_info {
-	background-image: url("../image/symbol_info.png");
-}
-
 .icon_dark-purple {
 	background-color: #b500a6;
 }
 
-.symbol_edit { 
-	background-image: url("../image/symbol_edit.png");
+
+/*Adding special font to view the icons*/
+@font-face {
+	font-family: 'icons';
+	src: url('../font/icons.eot?34439810');
+	src: url('../font/icons.eot?34439810#iefix') format('embedded-opentype'),
+		url('../font/icons.woff?34439810') format('woff'),
+		url('../font/icons.ttf?34439810') format('truetype'),
+		url('../font/icons.svg?34439810#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icons';
+		src: url('../font/icons.svg?34439810#icons') format('svg');
+	}
+}
+*/
+ 
+[class^="fi-"]:before, [class*=" fi-"]:before {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	font-size: 50px;
+ 	color: white;
+	display: inline-block;
+ 	text-decoration: inherit;
+	/* width: 1em; */
+	padding-top: 12px;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none; 
+  	/* fix buttons height, for twitter bootstrap */
+  	line-height: 50px;
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+	/* Uncomment for 3D effect */
+}
+ 
+/*Content for separate icons + centring icons*/
+.fi-home:before { 
+	content: '\e800';
+	padding-left: 7px;
+} /* '' */
+.fi-cup:before { 
+	content: '\e801';
+	padding-left: 12px;
+} /* '' */
+.fi-mail:before {
+	content: '\e802';
+	padding-left: 5px;
+} /* '' */
+.fi-music:before {
+	content: '\e803';
+	padding-left: 5px;
+} /* '' */
+.fi-cloud:before {
+	content: '\e804';
+	padding-left: 5px;
+} /* '' */
+.fi-hourglass:before {
+	content: '\e805';
+	padding-left: 15px;
+} /* '' */
+.fi-info:before {
+	content: '\e806';
+	padding-left: 16px;
+} /* '' */
+.fi-pencil:before {
+	content: '\e807';
+	padding-left: 10px;
+} /* '' */
+.fi-feather:before {
+	content: '\e808';
+	padding-left: 11px;
+} /* '' */
