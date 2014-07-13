@@ -1,0 +1,10 @@
+
+.fi-home:before { content: '\e800'; } /* '' */
+.fi-cup:before { content: '\e801'; } /* '' */
+.fi-mail:before { content: '\e802'; } /* '' */
+.fi-music:before { content: '\e803'; } /* '' */
+.fi-cloud:before { content: '\e804'; } /* '' */
+.fi-hourglass:before { content: '\e805'; } /* '' */
+.fi-info:before { content: '\e806'; } /* '' */
+.fi-pencil:before { content: '\e807'; } /* '' */
+.fi-feather:before { content: '\e808'; } /* '' */
