@@ -19,34 +19,16 @@
   	line-height: 77px;
 }
  
-/*Content for separate icons + centring icons*/
-.fi-home:before { 
-	content: '\e800';
-}
-.fi-cup:before { 
-	content: '\e801';
-}
-.fi-mail:before {
-	content: '\e802';
-}
-.fi-music:before {
-	content: '\e803';
-}
-.fi-cloud:before {
-	content: '\e804';
-}
-.fi-hourglass:before {
-	content: '\e805';
-}
-.fi-info:before {
-	content: '\e806';
-}
-.fi-pencil:before {
-	content: '\e807';
-}
-.fi-feather:before {
-	content: '\e808';
-}
+/*Content for separate icons*/
+.fi-home:before { content: '\e800';}
+.fi-cup:before { content: '\e801';}
+.fi-mail:before { content: '\e802';}
+.fi-music:before { content: '\e803';}
+.fi-cloud:before { content: '\e804';}
+.fi-hourglass:before { content: '\e805';}
+.fi-info:before { content: '\e806';}
+.fi-pencil:before { content: '\e807';}
+.fi-feather:before { content: '\e808';}
 
 .icons {
 	position: relative;
@@ -77,36 +59,21 @@
 }
 
 .icons__item:hover {
-	transition: all 0.4s ease-in 0.1s;
+	transition: all 0.3s ease-in 0.01s;
 	-webkit-transition: all 0.4s ease-in 0.1s; /* For proper work in Safari  */
-	background: black;
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.3), 0px 2px 5px 0 rgba(255,255,255,0.3) inset, 0 0 90px 90px rgba(255,255,255,0.6);
 }
 
 /* Separate properties for every icon*/
-.icon_purple {
-	background-color: #00d21e;
-}
-.icon_red {
-	background-color: #b50000;
-}
-.icon_yellow {
-	background-color: #ffc600;
-}
-.icon_grey {
-	background-color: #9e9e9e;
-}
-.icon_blue {
-	background-color: #007ac8;
-}
-.icon_violet {
-	background-color: #ff00ea;
-}
-.icon_green {
-	background-color: #00dc29;
-}
-.icon_bright-blue {
-	background-color: #00f6ff;
-}
-.icon_dark-purple {
-	background-color: #b500a6;
-}
+.icon_purple { background-color: #00d21e;}
+.icon_red { background-color: #b50000;}
+.icon_yellow { background-color: #ffc600;}
+.icon_grey { background-color: #9e9e9e;}
+.icon_blue { background-color: #007ac8;}
+.icon_violet { background-color: #ff00ea;}
+.icon_green { background-color: #00dc29; }
+.icon_bright-blue { background-color: #00f6ff;}
+.icon_dark-purple {	background-color: #b500a6; }
