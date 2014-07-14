@@ -27,6 +27,9 @@
 
 .icons__item:hover {
 	transition: all 0.4s ease-in 0.1s;
+	-webkit-transition: all 0.4s ease-in 0.1s;
+	-moz-transition: all 0.4s ease-in 0.1s;
+	-o-transition: all 0.4s ease-in 0.1s;
 	background: black;
 	/* transform: scale(2,2);*/
 	/* transition: ;*/
