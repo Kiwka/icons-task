@@ -1,69 +1,3 @@
-.icons {
-	position: relative;
-	list-style-type: none;	
-	margin: auto; 
-	width: 300px;
-}
-
-/* How the blocks are displayed inside the list */
-.icon_position {
-	width: 77px;
-	height: 77px;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.icons__item {
-	display: inline-block;
-	margin: 5px 5px;
-	box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.3), 0px 2px 5px 0 rgba(255,255,255,0.3) inset;
-	background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(0,0,0,0.2));
-	width: 77px;
-	height: 77px;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 50%;
-	text-align: center;
-}
-
-.icons__item:hover {
-	transition: all 0.4s ease-in 0.1s;
-	-webkit-transition: all 0.4s ease-in 0.1s;
-	-moz-transition: all 0.4s ease-in 0.1s;
-	-o-transition: all 0.4s ease-in 0.1s;
-	background: black;
-}
-
-/* Separate properties for every icon*/
-.icon_purple {
-	background-color: #00d21e;
-}
-.icon_red {
-	background-color: #b50000;
-}
-.icon_yellow {
-	background-color: #ffc600;
-}
-.icon_grey {
-	background-color: #9e9e9e;
-}
-.icon_blue {
-	background-color: #007ac8;
-}
-.icon_violet {
-	background-color: #ff00ea;
-}
-.icon_green {
-	background-color: #00dc29;
-}
-.icon_bright-blue {
-	background-color: #00f6ff;
-}
-.icon_dark-purple {
-	background-color: #b500a6;
-}
-
-
 /*Adding special font to view the icons*/
 @font-face {
 	font-family: 'icons';
@@ -78,18 +12,10 @@
  
 [class^="fi-"]:before, [class*=" fi-"]:before {
 	font-family: "icons";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
 	font-size: 50px;
  	color: white;
 	display: inline-block;
- 	text-decoration: inherit;
-	/* text-align: center; */
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-	/* For safety - reset parent styles, that can break glyph codes*/
-	font-variant: normal;
-	text-transform: none; 
   	line-height: 77px;
 }
  
@@ -120,4 +46,67 @@
 }
 .fi-feather:before {
 	content: '\e808';
+}
+
+.icons {
+	position: relative;
+	list-style-type: none;	
+	margin: auto; 
+	width: 300px;
+}
+
+/* How the blocks are displayed inside the list */
+.icon_position {
+	width: 77px;
+	height: 77px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icons__item {
+	display: inline-block;
+	margin: 5px 5px;
+	box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.3), 0px 2px 5px 0 rgba(255,255,255,0.3) inset;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	width: 77px;
+	height: 77px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.icons__item:hover {
+	transition: all 0.4s ease-in 0.1s;
+	-webkit-transition: all 0.4s ease-in 0.1s; /* For proper work in Safari  */
+	background: black;
+}
+
+/* Separate properties for every icon*/
+.icon_purple {
+	background-color: #00d21e;
+}
+.icon_red {
+	background-color: #b50000;
+}
+.icon_yellow {
+	background-color: #ffc600;
+}
+.icon_grey {
+	background-color: #9e9e9e;
+}
+.icon_blue {
+	background-color: #007ac8;
+}
+.icon_violet {
+	background-color: #ff00ea;
+}
+.icon_green {
+	background-color: #00dc29;
+}
+.icon_bright-blue {
+	background-color: #00f6ff;
+}
+.icon_dark-purple {
+	background-color: #b500a6;
 }
